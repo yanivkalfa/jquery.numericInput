@@ -4,7 +4,7 @@
   "authors": [
     "Yaniv-Kalfa <netameta1@yahoo.com>"
   ],
-  "description": "make sure only numeric values are entered in an input",
+  "description": "Make sure only numeric values are entered in an input",
   "main": "jquery.numericInput.js",
   "license": "MIT",
   "ignore": [
