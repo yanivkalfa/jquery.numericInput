@@ -18,7 +18,13 @@
         var limitInput = settings.limitInput;
 
         this.keypress(function (event) {
-            var that = this;
+            var that, inputCode;
+            that = this;
+            inputCode = event.which || event.keyCode;
+
+            if(inputCode == 8) {
+                return true;
+            }
 
             if(!validateKeypress(event, that)){
                 $(that).addClass("error");
