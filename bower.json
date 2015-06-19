@@ -1,0 +1,20 @@
+{
+  "name": "jquery.numericInput",
+  "version": "1.0.0",
+  "authors": [
+    "Yaniv-Kalfa <netameta1@yahoo.com>"
+  ],
+  "description": "make sure only numeric values are entered in an input",
+  "main": "jquery.numericInput.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
